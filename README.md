@@ -31,7 +31,7 @@ java -jar auth-center/target/auth-center-1.0.0.jar
 java -jar backend-service/target/backend-service-1.0.0.jar
 java -jar api-gateway/target/api-gateway-1.0.0.jar
 3. Get tokens
-curl -i -H "Content-Type: application/json" -X POST -d '{"username":"shuaicj","password":"shuaicj"}' http://localhost:8080/login
+curl -i -H "Content-Type: application/json" -X POST -d '{"username":"ankur","password":"ankur"}' http://localhost:8080/login
 You will see the token in response header for user shuaicj. Note that the status code 401 will be returned if you provide incorrect username or password. And similarly, get token for user admin:
 
 curl -i -H "Content-Type: application/json" -X POST -d '{"username":"admin","password":"admin"}' http://localhost:8080/login
