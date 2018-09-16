@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: api-common
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ankurd3
+Implementation-Vendor-Id: com.tech
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/api-gateway-
+ parent/api-common/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
